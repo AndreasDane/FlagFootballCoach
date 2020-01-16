@@ -1,0 +1,1998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>BAFA Flag teams</name>
+    <Style id="icon-1579-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-757575-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-757575-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-757575">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-757575-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-757575-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-BDBDBD-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-BDBDBD-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-BDBDBD">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-BDBDBD-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-BDBDBD-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-BDBDBD-nodesc-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-BDBDBD-nodesc-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-BDBDBD-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-BDBDBD-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-BDBDBD-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1579-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1579-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1579-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1579-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1579-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1579-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1579-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Aberdeen Oilcats</name>
+      <description><![CDATA[Aberdeen Oilcats (Premier)<br>Aberdeen Silvercats (Div 1)]]></description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <Point>
+        <coordinates>
+          -2.1349525,57.1676179,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aylesbury Vale Spartans</name>
+      <description><![CDATA[<img src="https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/jbk1bdlfl7ht9b85e4a2msgo0c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALqLfdq5JsFxgJ12ap86gGJl6xBXIqLeGWL7eKU5UEGqf7VRcWbXDV6ch2XW4cVU0W0Ew_jUDIFw75rvqHNLFpgl5r4lTv5L8Wdu4HAknp4ZxV3O2NdHJWWT8zFCGAdzCUnjPAGDpIKkUDej1aHbFVUzk8qSzBZgOUHlH17j4xTj6gsj6tLdbjVAKbM7ZkWZwHVgyvHqZTpp5ZAEZy-sXW6nOBBJbLwLZcjJWyQ6nRVOxW6r_H2qeg9gGleQaorm3PbqkCjdx8s82diM23efcWg4KhfRcg?session=0&fife" height="200" width="auto" /><br><br>Aylesbury Vale Spartans. Fairford Leys Football Pitches. Training Sundays 10-1pm. av_spartans@hotmail.co.uk https://www.facebook.com/AVSpartans/]]></description>
+      <styleUrl>#icon-1579-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/jbk1bdlfl7ht9b85e4a2msgo0c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALqLfdq5JsFxgJ12ap86gGJl6xBXIqLeGWL7eKU5UEGqf7VRcWbXDV6ch2XW4cVU0W0Ew_jUDIFw75rvqHNLFpgl5r4lTv5L8Wdu4HAknp4ZxV3O2NdHJWWT8zFCGAdzCUnjPAGDpIKkUDej1aHbFVUzk8qSzBZgOUHlH17j4xTj6gsj6tLdbjVAKbM7ZkWZwHVgyvHqZTpp5ZAEZy-sXW6nOBBJbLwLZcjJWyQ6nRVOxW6r_H2qeg9gGleQaorm3PbqkCjdx8s82diM23efcWg4KhfRcg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -0.8386302,51.8110824,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bakerstreet Buttonhookers</name>
+      <styleUrl>#icon-1579-E65100-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.1644515,51.5095972,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bedford Blackhawks (SWC Prem)</name>
+      <description><![CDATA[<img src="https://doc-08-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/2g3ngckvtuubgq3r52m9j4ss2o/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALq8C55kg3PjIKEtk5440ncTBJiLxc91ZyhY6cRBJ9BzW__sFL2kLIAW6DrjT5Bcstao58voP23X0uKdYKq9w5oxEgCdhzBfhiQ9STWZ9ePqb0-0b41WzhrNMnvFu6YDzhCaR-faDUUguZnn_Enab_Hjvs_gyK-E-juergxE990L-vlaHwR5wjTSdoLJGRAFUStxqzn4TfySCxEC3kA4PAY55Xp4fEJXlTxIjk2VSNz1iBdEW6c3y2NY1bp8qW_ALnMtP3CpKZChX3xfBbL_s0HotYXnpQ?session=0&fife" height="200" width="auto" /><br><br>https://www.facebook.com/BedsBlackhawks/<br>https://twitter.com/BedsBlackhawks?lang=en]]></description>
+      <styleUrl>#icon-1579-9C27B0</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-08-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/2g3ngckvtuubgq3r52m9j4ss2o/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALq8C55kg3PjIKEtk5440ncTBJiLxc91ZyhY6cRBJ9BzW__sFL2kLIAW6DrjT5Bcstao58voP23X0uKdYKq9w5oxEgCdhzBfhiQ9STWZ9ePqb0-0b41WzhrNMnvFu6YDzhCaR-faDUUguZnn_Enab_Hjvs_gyK-E-juergxE990L-vlaHwR5wjTSdoLJGRAFUStxqzn4TfySCxEC3kA4PAY55Xp4fEJXlTxIjk2VSNz1iBdEW6c3y2NY1bp8qW_ALnMtP3CpKZChX3xfBbL_s0HotYXnpQ?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -0.4418135,52.1337251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buckinghamshire Wolves</name>
+      <description>https://www.facebook.com/buckswolves/</description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <Point>
+        <coordinates>
+          -0.6401789,51.6030056,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cardiff Bay Coyotes</name>
+      <description><![CDATA[<img src="https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/fe23ste5p29ds1enf32e110qgo/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrPXCS-i9QK_Mkw0IlZDp5PTiLnXV1Ibu2sEzjcRvv6M3ONWSCs5l1sgqtsuP8MOe9lb4OAs-PZFvh4XxI4U01Y7-GgpH9rpn-NqqlELW0d09f69J0p3WG-RVhx4IQAK7lLp7pQXiiWSh72z4GTs1lqAy5yXS8HWV7sS6wEcSk8AjpXY4E_2gSAxxjkVQw25JKdMHyDKR-2a1hQhBDBuM_p616LQHJFCdAGJ2QUI1ePrtDfSPa9d5LtHml7ABbZ8h8ehAly_-eiN-5UDLyOzbYHxAkZZg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+      <styleUrl>#icon-1579-E65100</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/fe23ste5p29ds1enf32e110qgo/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrPXCS-i9QK_Mkw0IlZDp5PTiLnXV1Ibu2sEzjcRvv6M3ONWSCs5l1sgqtsuP8MOe9lb4OAs-PZFvh4XxI4U01Y7-GgpH9rpn-NqqlELW0d09f69J0p3WG-RVhx4IQAK7lLp7pQXiiWSh72z4GTs1lqAy5yXS8HWV7sS6wEcSk8AjpXY4E_2gSAxxjkVQw25JKdMHyDKR-2a1hQhBDBuM_p616LQHJFCdAGJ2QUI1ePrtDfSPa9d5LtHml7ABbZ8h8ehAly_-eiN-5UDLyOzbYHxAkZZg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.188369,51.5138869,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cardiff Hurricanes (Premier Div, SEC)</name>
+      <description><![CDATA[<img src="https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/knemhkli2ogv7tr5o9cdsacatc/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpq6f3lC6PF42ri8t3HNFJWdoY9PUBz2-8Z_BUGlNEuilcf6NURrbFLmB-yoYg9urTnbFsarLZEzX-qz5c6lPl2zhOFgaZ5uscbio7c0aWAqKVCiBqpt1eZ01sNEymRjQuq-aLWubEDIu4YGR4x9lLsPd5pbpANUbzRe_VXNABNNQyVcIRVYijFgV06mlJE-zqA-4G8nw6zhFBQQ-rzKeWC0iONS1G-ksMDI0wW9_fr49Fw0o_H77A4FqF-klkXbjK19b5oq9jei68efU3WxTNlm5AHKg?session=0&fife" height="200" width="auto" /><br><br>www.facebook.com/cardiffhurricanes]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/knemhkli2ogv7tr5o9cdsacatc/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpq6f3lC6PF42ri8t3HNFJWdoY9PUBz2-8Z_BUGlNEuilcf6NURrbFLmB-yoYg9urTnbFsarLZEzX-qz5c6lPl2zhOFgaZ5uscbio7c0aWAqKVCiBqpt1eZ01sNEymRjQuq-aLWubEDIu4YGR4x9lLsPd5pbpANUbzRe_VXNABNNQyVcIRVYijFgV06mlJE-zqA-4G8nw6zhFBQQ-rzKeWC0iONS1G-ksMDI0wW9_fr49Fw0o_H77A4FqF-klkXbjK19b5oq9jei68efU3WxTNlm5AHKg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1695557,51.499286,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carnegie American Football</name>
+      <styleUrl>#icon-1579-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4029132,56.0619978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cheltenham Spa Neptunes</name>
+      <styleUrl>#icon-1579-1A237E-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.0690726,51.9065325,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cheshire Cavaliers</name>
+      <description>https://www.facebook.com/CavaliersFlag/</description>
+      <styleUrl>#icon-1579-E65100</styleUrl>
+      <Point>
+        <coordinates>
+          -2.4755287,53.0979926,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chichester Sharks</name>
+      <description><![CDATA[<img src="https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/v6663ag89105vb6hgnjn42mvgc/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALq4qZbOAUkqfSbIIoZJts8XIMowblgF0DX1GCxGL5_96Rb53CzOciKIbl7LqFAOcpLzFfaazXr7G1TdxMN3jkwAIZoPEiceJjjUp4Fyy_e5dn8_gBVsn3ESpyTNXXvK26NaUaSTazJMf3858OJqetnbbd0poIXyQpvjOhcDpnD4jgxsTsyyw5wbAQAo5kLp55YhrzVir6nm-5UWuAduiKKg-_29ZZI2_oCgZAaDiv9vaQRGcqsSx07P46pR7078579r-3tZmgYwJNfENKIa9Qc-oXYVyw?session=0&fife" height="200" width="auto" /><br><br>https://www.facebook.com/chichestersharks/<br>www.chichestersharks.co.uk<br>Training Sunday mornings 10am, New Park, Litten Terrace, Chichester, PO19 7SA]]></description>
+      <styleUrl>#icon-1579-7CB342</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/v6663ag89105vb6hgnjn42mvgc/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALq4qZbOAUkqfSbIIoZJts8XIMowblgF0DX1GCxGL5_96Rb53CzOciKIbl7LqFAOcpLzFfaazXr7G1TdxMN3jkwAIZoPEiceJjjUp4Fyy_e5dn8_gBVsn3ESpyTNXXvK26NaUaSTazJMf3858OJqetnbbd0poIXyQpvjOhcDpnD4jgxsTsyyw5wbAQAo5kLp55YhrzVir6nm-5UWuAduiKKg-_29ZZI2_oCgZAaDiv9vaQRGcqsSx07P46pR7078579r-3tZmgYwJNfENKIa9Qc-oXYVyw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -0.7727766,50.8389285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chorley Buccaneers</name>
+      <description>https://www.facebook.com/ChorleyBucs/</description>
+      <styleUrl>#icon-1579-E65100</styleUrl>
+      <Point>
+        <coordinates>
+          -2.6329422,53.6539987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Clyde Comets</name>
+      <description><![CDATA[Home of Inverclyde American Football<br>www.IAFCC.co.uk]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7908813,55.9610355,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coventry Cougars</name>
+      <styleUrl>#icon-1579-BDBDBD-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.5276361,52.3908837,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coventry Panthers (Div 1 Mid South)</name>
+      <styleUrl>#icon-1579-FFEA00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.5113068,52.4078646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Kilbride Pirates Women</name>
+      <styleUrl>#icon-1579-000000-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2218828,55.8531793,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Edinburgh Outlaws</name>
+      <description>https://www.facebook.com/EdinburghOutlaws/</description>
+      <styleUrl>#icon-1579-1A237E</styleUrl>
+      <Point>
+        <coordinates>
+          -3.2093811,55.9378562,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Exeter Falcons (Div 1 SW A, Mixed))</name>
+      <description><![CDATA[<img src="https://doc-00-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/pmjsn0a7t6alm6qi74a9akn6dk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrXEVC9nk2PlGf_2NwjJq6gfY4kzH5XIZEE_zA14t9Bib0VQnbRG9gZlbp1Y8Srw0ihzJwL4swBUgCzDxJybd4s0IvpmlRqVpgAR0TqLRaiyo0cOkK5GkmxRyyeXu5EikzosJ_Xs8Rlj8GH31F7FUzyZG09ihmC9kIIs3VnTTN0ONzwTZvry8qasZS3IuBHW6WfhnYgEL43lmzZbu1ZhZlhPDCwR_h9jX4hGrdC_Yb-sQ4_tO8YrShk7koqjCaQg5jWkqyZLn5z0JF799I3PPcoTpWL6A?session=0&fife" height="200" width="auto" /><br><br>Exeter University Sports Park (EX4 4QN) Saturdays 10-12<br>Wednesdays 5-7<br>Contact John Willis/ Joe Kewley-Joy<br>Email: exeterfalconsfootball@gmail.com<br>Web: https://exeter-falcons.com/<br><br><img src="https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/n8i06mmpp664p3ovramt0fcjd8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALqBRD933IG59avsN1xD7UUDiv24UJkeWDW8qnFNQ7vyJoN0UgMjo9FX8Y6r-EPQK2zdZJDXOVqJLc4D9elDB-xadTquzcV9krIXRvdX3dIjvLYih4TyJUYPtt1bQ-2CY2OHc1AnYueGU6cUXRBth_-_Ojo8wxyxJwzq64eQ4tVzICr-p1bOnHOYD_aEqCRgN3P8vPSq1CPEp-YMxE68iuBmTA8rUR7uaMhrA9rdvQouknh5CzmFalssyQhGpciV4RcWhbKMnHtbnv_3nMsAU6QN1ovxHw?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-097138</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-00-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/pmjsn0a7t6alm6qi74a9akn6dk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrXEVC9nk2PlGf_2NwjJq6gfY4kzH5XIZEE_zA14t9Bib0VQnbRG9gZlbp1Y8Srw0ihzJwL4swBUgCzDxJybd4s0IvpmlRqVpgAR0TqLRaiyo0cOkK5GkmxRyyeXu5EikzosJ_Xs8Rlj8GH31F7FUzyZG09ihmC9kIIs3VnTTN0ONzwTZvry8qasZS3IuBHW6WfhnYgEL43lmzZbu1ZhZlhPDCwR_h9jX4hGrdC_Yb-sQ4_tO8YrShk7koqjCaQg5jWkqyZLn5z0JF799I3PPcoTpWL6A?session=0&fife https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/n8i06mmpp664p3ovramt0fcjd8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALqBRD933IG59avsN1xD7UUDiv24UJkeWDW8qnFNQ7vyJoN0UgMjo9FX8Y6r-EPQK2zdZJDXOVqJLc4D9elDB-xadTquzcV9krIXRvdX3dIjvLYih4TyJUYPtt1bQ-2CY2OHc1AnYueGU6cUXRBth_-_Ojo8wxyxJwzq64eQ4tVzICr-p1bOnHOYD_aEqCRgN3P8vPSq1CPEp-YMxE68iuBmTA8rUR7uaMhrA9rdvQouknh5CzmFalssyQhGpciV4RcWhbKMnHtbnv_3nMsAU6QN1ovxHw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.53730819999998,50.7371134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Glasgow Hornets</name>
+      <styleUrl>#icon-1579-FFD600-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2216575,55.8534262,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grangemouth Flag Football Club</name>
+      <description><![CDATA[Consists of:<br>Grangemouth Broncos (HNC, Prem, Mixed)<br>Grangemouth Colts (HNC, Div 1, Mixed)]]></description>
+      <styleUrl>#icon-1579-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          -3.6589193,55.9733239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gwent Gators (Div 1 SW, Mixed)
+</name>
+      <description><![CDATA[<img src="https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/rcrlp8or2isbu5p4qspcncgo1c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrGeLqR2vZewSTPJGDmMWSDTFK92QMRTNR8WfxpfDYYBMSP0-9F2BY_tRxx-BbRR7hh8VnkXXhKxJAIvwlONfctPhyANU06nqWAQH-lIBv6aH-Kz34iHnTfolncL7UAG05_Uwes577CeF0Re9vedTXxpB7g593W0J9HVkcdXqzm99aEq4BlXrIhHBKrLThRFTF-uOKhesUki024wFBrXUDbgM3utOJ_r1WDCxDzKYyYBakOU14co0ZdZn-yAPJkZ-2SlTp_W-Hz1rx5viHQEY4z3f7dKg?session=0&fife" height="200" width="auto" /><br><br>@GwentGators Based In Risca.  Train every Friday 7.30pm.  Anyone 16+ welcome. <br><br><img src="https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/s0durl1b8unrupd4h0n1s5m6hg/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrN5eQSBGpp156n4h9pfndYiPnSqBmez6_-5nexwfoK_lhnRFrJXd2nWRuhN7LrO1va4OZr75pdm8LqQZ57Lyn1uJormMdrN2495cekcmgV2t6EzPJW7WDKvLWctHE0GPjYN3pSQnUB0zonNcF2md3kn9D-UiJW11G9Yrgk28Aobm-PlIMjTv8V0h-mPCHnwxs6orbaJ0yyDkIW-PjrKRZ3ofaPQTYSUP374ldpgCsQASf8T_m6wjFI21tdQcjXyvtNxtmkLwpaecB8x7UIfk0ITqmBLQ?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/rcrlp8or2isbu5p4qspcncgo1c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrGeLqR2vZewSTPJGDmMWSDTFK92QMRTNR8WfxpfDYYBMSP0-9F2BY_tRxx-BbRR7hh8VnkXXhKxJAIvwlONfctPhyANU06nqWAQH-lIBv6aH-Kz34iHnTfolncL7UAG05_Uwes577CeF0Re9vedTXxpB7g593W0J9HVkcdXqzm99aEq4BlXrIhHBKrLThRFTF-uOKhesUki024wFBrXUDbgM3utOJ_r1WDCxDzKYyYBakOU14co0ZdZn-yAPJkZ-2SlTp_W-Hz1rx5viHQEY4z3f7dKg?session=0&fife https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/s0durl1b8unrupd4h0n1s5m6hg/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrN5eQSBGpp156n4h9pfndYiPnSqBmez6_-5nexwfoK_lhnRFrJXd2nWRuhN7LrO1va4OZr75pdm8LqQZ57Lyn1uJormMdrN2495cekcmgV2t6EzPJW7WDKvLWctHE0GPjYN3pSQnUB0zonNcF2md3kn9D-UiJW11G9Yrgk28Aobm-PlIMjTv8V0h-mPCHnwxs6orbaJ0yyDkIW-PjrKRZ3ofaPQTYSUP374ldpgCsQASf8T_m6wjFI21tdQcjXyvtNxtmkLwpaecB8x7UIfk0ITqmBLQ?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.0706573,-3.0706573,51,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leeds Samurai</name>
+      <description>https://www.facebook.com/LeedsSamurai/</description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <Point>
+        <coordinates>
+          -1.3413652,54.4121367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leicester Huntsmen (Div 1 Mid South)</name>
+      <description><![CDATA[Under 12s, 17s & Adult]]></description>
+      <styleUrl>#icon-1579-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -1.2081528,52.625561,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leighton Steam</name>
+      <styleUrl>#icon-1579-1A237E-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.6503391,51.9093847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lincolnshire Longhorns</name>
+      <description><![CDATA[<img src="https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/oqgs4gbf067972j86hhk19godk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALo7o5dpUGXHpetypwkpodotTe9_guo-b0W5gEmIsz3y-EHb_YtyT3OR6ArFnmoXZ4TKlKP5mcdBd7ByJPqvB-GAc3RzSZsLf3UiZvxagSYBPVvvFmx4tumcgRLIvnIbDgofMsngGdkwXoC06HGBK7KtVRmHi9zaBIzsXxj6pWoMkVDJEZS34zwEhc2Oh9X_-dET7ynqPjcIC4xcijtzgN3hdSZp_Izs9HX1Y97Dqgv8oqy06Ogl6mdUhcmRvB4GoYehLH62Z7o7E7Zgxhsb37Wz0pJ72Q?session=0&fife" height="200" width="auto" /><br><br>Email: lincolnshirelonghorns@mail.com<br>Find us on Facebook. Search for Lincolnshire Longhorns.<br><br>Warren Lane, Witham St Hughs, LN6 9US]]></description>
+      <styleUrl>#icon-1579-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/oqgs4gbf067972j86hhk19godk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALo7o5dpUGXHpetypwkpodotTe9_guo-b0W5gEmIsz3y-EHb_YtyT3OR6ArFnmoXZ4TKlKP5mcdBd7ByJPqvB-GAc3RzSZsLf3UiZvxagSYBPVvvFmx4tumcgRLIvnIbDgofMsngGdkwXoC06HGBK7KtVRmHi9zaBIzsXxj6pWoMkVDJEZS34zwEhc2Oh9X_-dET7ynqPjcIC4xcijtzgN3hdSZp_Izs9HX1Y97Dqgv8oqy06Ogl6mdUhcmRvB4GoYehLH62Z7o7E7Zgxhsb37Wz0pJ72Q?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -0.6614825,53.1513039,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>London Rebels</name>
+      <description>https://www.facebook.com/groups/45611192930/</description>
+      <styleUrl>#icon-1579-A52714</styleUrl>
+      <Point>
+        <coordinates>
+          -0.0528073,51.4925799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>London Smoke</name>
+      <description>https://www.facebook.com/ldnsmoke/</description>
+      <styleUrl>#icon-1579-757575</styleUrl>
+      <Point>
+        <coordinates>
+          -0.1465559,51.459462,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manchester Crows (MEC Premiership)</name>
+      <description><![CDATA[<img src="https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/q0rrji8fhh6djcok68up96k744/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrG0q1ULlPOIIMSAETo1ABUovudzwigPbqPtvADiX4tu4aLoyoqQsfMr6YSQS7XjEyOJkgjONfSMHm7_5He1o9el5uWG3aDlIJ4GEpIy4BVepSrxLFaKODlaSgjLinKSxNzjSuo00GzyVuT7_RNsASU6i51x0B2WOAiPhUakWN0h4caKdN-s8MMoLSqiMLenjgv2oFThITa9yP3bWHG0PYrqMJ57Ctntc8s_YXLjP3EH88n8_wCogmSEEumaWiNPOZlGjWfHWjh8xwUNNSb0tu5mgZL1w?session=0&fife" height="200" width="auto" /><br><br>w | www.crowsfootball.com<br>fb | www.facebook.com/ManchesterCrows<br>Training  |  Sundays 10:00-12:30<br><br><img src="https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/v60fmbr265pifkh78frmg1da50/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoluUrIjrGyshIq-QSg_yetGx0V2p86a_conk8HiZdhxYaxPdm4mmXbS92jmd7pzKMlHDH1g84IDeImGqwh9XUXy1-yHiqX2EdJZSNdUl1dy_blIHb35lNlTbwGVC1M35D667wWmg5pNoSbbqx6Cjmxb13I0uDofis76jY_DWVmDNq3hFv2IZJT8D27jOyDJR3txL7zOrwK-XDVx-nP2ZjrEJpcTH0UBX_Dv4S0vONAVtqSHLS27ciD2irYBMKBWTc1EFmH4f0HNwWDJ3TKuvniXBprAw?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/ucuqau2f3aqvaacd0ool6307rs/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrKJbJUYnG9M6Yb6roeW8rfBMBwsWdmv4-ZdNJx2pDOIc60cc07bgSM_g5I6vI1e-W4_-2wphYGOyH93E_qvW_hMd5e3ZyX39Fj5k8PbKatPlMK9FVUycVe_y55ZY4PmF5poMEtxpQ5cLYNOJFvK8bnOv4ShP4NnXDo0riH9uf8NP_Izf7Yqb0lIygkk6_9onm9c1wcT0APZTQyFX5OXtGPq-FPfow8-3Rjvkf4oqaUqOrqAgz_aJhTJAyngtqnPN1zohqvTpnCQKE3CeXZg92tJoWZKw?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/q0rrji8fhh6djcok68up96k744/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrG0q1ULlPOIIMSAETo1ABUovudzwigPbqPtvADiX4tu4aLoyoqQsfMr6YSQS7XjEyOJkgjONfSMHm7_5He1o9el5uWG3aDlIJ4GEpIy4BVepSrxLFaKODlaSgjLinKSxNzjSuo00GzyVuT7_RNsASU6i51x0B2WOAiPhUakWN0h4caKdN-s8MMoLSqiMLenjgv2oFThITa9yP3bWHG0PYrqMJ57Ctntc8s_YXLjP3EH88n8_wCogmSEEumaWiNPOZlGjWfHWjh8xwUNNSb0tu5mgZL1w?session=0&fife https://doc-10-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/v60fmbr265pifkh78frmg1da50/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoluUrIjrGyshIq-QSg_yetGx0V2p86a_conk8HiZdhxYaxPdm4mmXbS92jmd7pzKMlHDH1g84IDeImGqwh9XUXy1-yHiqX2EdJZSNdUl1dy_blIHb35lNlTbwGVC1M35D667wWmg5pNoSbbqx6Cjmxb13I0uDofis76jY_DWVmDNq3hFv2IZJT8D27jOyDJR3txL7zOrwK-XDVx-nP2ZjrEJpcTH0UBX_Dv4S0vONAVtqSHLS27ciD2irYBMKBWTc1EFmH4f0HNwWDJ3TKuvniXBprAw?session=0&fife https://doc-0g-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/ucuqau2f3aqvaacd0ool6307rs/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrKJbJUYnG9M6Yb6roeW8rfBMBwsWdmv4-ZdNJx2pDOIc60cc07bgSM_g5I6vI1e-W4_-2wphYGOyH93E_qvW_hMd5e3ZyX39Fj5k8PbKatPlMK9FVUycVe_y55ZY4PmF5poMEtxpQ5cLYNOJFvK8bnOv4ShP4NnXDo0riH9uf8NP_Izf7Yqb0lIygkk6_9onm9c1wcT0APZTQyFX5OXtGPq-FPfow8-3Rjvkf4oqaUqOrqAgz_aJhTJAyngtqnPN1zohqvTpnCQKE3CeXZg92tJoWZKw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -2.2632909,53.5002428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manchester Titans</name>
+      <description><![CDATA[<img src="https://doc-08-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/adpvc127be63kcbgjocrrotnm4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrhHl63hOQ2GzxCfycBsK9-49PGdpDYM-8KYsd-a3ygyL1PkPQGEPOM20OqMP6f8C6kWcCdDmaYtY9H5TKkyuNIYCaMrce-q4JM1ft1T_3nfRNU9mQO5WCZmJcKu6kY-0AP858Q3sqMGizWSU57rKO5BEHxzeyuGmSyZaMO80qnZ12Zx6amVTMMZ3DJuZBSVTieXg_LHdKYkSdjfexz_HTBjO2Lr2pQ5cJkDtX0NU4qCluWLMGz_nhAi1RsxqyIn4YBjGMN66M5WvQaqGCvwGdqy91wCQ?session=0&fife" height="200" width="auto" /><br><br>Manchester Titans, Prem, MEC, Mixed]]></description>
+      <styleUrl>#icon-1579-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-08-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/adpvc127be63kcbgjocrrotnm4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrhHl63hOQ2GzxCfycBsK9-49PGdpDYM-8KYsd-a3ygyL1PkPQGEPOM20OqMP6f8C6kWcCdDmaYtY9H5TKkyuNIYCaMrce-q4JM1ft1T_3nfRNU9mQO5WCZmJcKu6kY-0AP858Q3sqMGizWSU57rKO5BEHxzeyuGmSyZaMO80qnZ12Zx6amVTMMZ3DJuZBSVTieXg_LHdKYkSdjfexz_HTBjO2Lr2pQ5cJkDtX0NU4qCluWLMGz_nhAi1RsxqyIn4YBjGMN66M5WvQaqGCvwGdqy91wCQ?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -2.2171032,53.469708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newcastle Blackhawks</name>
+      <description><![CDATA[<img src="https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/tismngilgnvvn1rp67220tu60s/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoBG-SS7zvU1rNS-SkFwntaZTT3StEe6gk9LNhGZV7Mv70aYdmNtXwGgU0cScw52fubRmyF9EVkb34UsxfZkTZ-mmIc76SrURMqEp3uA1k8qsShPZHtDwLjnr7IZK81grCr6M5-yP152cezKg5XKVPl7OxVagA96o8tiajd-ly4apN8RwqfQDcYn5UJb2DPk1h3uWKXd_1wGp3JrMCaMJNsQfAbOR28l_MA9seW-Z3awhimq4eeTLfIPRwS1-TATGPs6OI_4qi22lBkujSNGstwWxOyZA?session=0&fife" height="200" width="auto" /><br><br>https://www.facebook.com/BlackhawksFlag/      @blackhawksflag                                                         newcastleblackhawks@gmail.com]]></description>
+      <styleUrl>#icon-1579-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/tismngilgnvvn1rp67220tu60s/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoBG-SS7zvU1rNS-SkFwntaZTT3StEe6gk9LNhGZV7Mv70aYdmNtXwGgU0cScw52fubRmyF9EVkb34UsxfZkTZ-mmIc76SrURMqEp3uA1k8qsShPZHtDwLjnr7IZK81grCr6M5-yP152cezKg5XKVPl7OxVagA96o8tiajd-ly4apN8RwqfQDcYn5UJb2DPk1h3uWKXd_1wGp3JrMCaMJNsQfAbOR28l_MA9seW-Z3awhimq4eeTLfIPRwS1-TATGPs6OI_4qi22lBkujSNGstwWxOyZA?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.5960065,54.9992137,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northants Phantoms</name>
+      <styleUrl>#icon-1579-000000-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.8896351,52.2495069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northants Titans</name>
+      <description><![CDATA[Northants Titans Blue (SWC Premier)<br>Northants Titans White (Div 1 Mid South)<br>Northants Titans Black (Div 1 Mid South)]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -0.8747005,52.1983486,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nottingham Bears (Div 1, MEC East)</name>
+      <styleUrl>#icon-1579-097138-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.199802,52.9123384,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nottingham Honey Badgers (Div 1, MEC East, mixed)</name>
+      <description><![CDATA[<img src="https://doc-04-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/h75qec4livngsfajsaoe3i5bi4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpQJlPa-28pSrutHZVxS-SUymN97YCfeLx8N4GwRXODUpb4wL7tnQEAX5Tjr9nLAay1Jj1K6R9oWpmtd3WKTStkjGdl6hvc3PEWdDoSx4tW8_ENNQoCZOhfX9dq7aTVKMSaEnD32h22PgeIJ46IU0txNzxuvz7xMTclkbyPlRuhIK9h045VtzfnZMYkLfehrFEbPXxO2RPHhS0V1hVCfolrJFVpFJGvrQ77T1gkT53smiGLkQ3yKGvGqfmCjmf7Ak7frWQhv50KquklVZQ_xvSUmkgUmw?session=0&fife" height="200" width="auto" /><br><br>Training: Saturday 10am-12pm, message the team on Facebook (facebook.com/HoneyBadgersUK) for info]]></description>
+      <styleUrl>#icon-1579-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-04-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/h75qec4livngsfajsaoe3i5bi4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpQJlPa-28pSrutHZVxS-SUymN97YCfeLx8N4GwRXODUpb4wL7tnQEAX5Tjr9nLAay1Jj1K6R9oWpmtd3WKTStkjGdl6hvc3PEWdDoSx4tW8_ENNQoCZOhfX9dq7aTVKMSaEnD32h22PgeIJ46IU0txNzxuvz7xMTclkbyPlRuhIK9h045VtzfnZMYkLfehrFEbPXxO2RPHhS0V1hVCfolrJFVpFJGvrQ77T1gkT53smiGLkQ3yKGvGqfmCjmf7Ak7frWQhv50KquklVZQ_xvSUmkgUmw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.1567128,52.9671073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oldham Owls</name>
+      <description><![CDATA[<img src="https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/evtg8krtuac02kjv5oj1s19pks/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrLlBDqj-qiSV14gBRGXRB10TREY0G8NR9zt0cMs8K9Df83KFqJfKeWxAlhqkHXbufeTX_qWb0rdJt3vRA-gVhOTbCrLG50dC8_viuXx8kqMEcKWqknbl_SP25fwTAUEetEZWjStRUKMOGQSevqR0K5c34DXT9Hm8r9LN99X59sLWbCcjmnVjLWSswIbXqMyCOB9equ1yq5TpLV8pLlsXcsIbZA8UO0r213pfYtwODS71v0czBEx2R3eQoC6cW4wlxZhLDyN_TzQ8e0Ck4c9DZohWXRwA?session=0&fife" height="200" width="auto" /><br><br>MEC West, Div 1, Mixed fb:www.facebook.com/oldhamowlsflagfootball/  w:https://owlsflagfootball.wixsite.com/oldhamowls<br><br><img src="https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/nsmfh1ugeldr18htvrg6d0q94c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrxo59-QhZ66qln-z-INn9-eRlpyMlxFarFQf7OprgJLgLthiYpvzD6adhYt7JBMZ4J4UiqnquuoOkDprSB9ia_5SrGTqnvssFN8Ddo58GB4YrnJ5zhpmcW72hCquGu7r8xytBl6Hyu5F1QDXT1vnJmRcKpEcaskFBp_v9Ttq_4hX1oEKl7p3YENaaZpFL9NKIz-dPrTMrSJWQkvGKS8Ope87l0MaH_hpGwWbauzNjbNB4a8Pzwp1KvxO50fCjTFN5yLYdTItZkjamLkf2OdNVh-Dhf6g?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/80mlpocata2iosrmeoe4ns525o/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr_Ix9IXqDkSwG1CBRbL_VThm2JCrhR--u2p7isj69LST4fWn4j_tU09FAgdHUVhJFQKcaOqH8DjBXm9KesAN0Eu8VG3JCFak2ub8guvGcsCcS5gqUkGEK02_THvbN6qfmPJrvZxn4NaXTkZGvCz-38-IO4mM8sUPKexU9fnBmV0YGRlOJTqhyrGd9ckZRPwvHwSuaYI6_0lFjOj4npCwzUbLSljGtWUFCMDW_JmCM6VzHsHuOOwsGKS22NKFNnVZ9Qms6VRKcVgG5pqPEhNkbqZK5E_g?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-AFB42B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/evtg8krtuac02kjv5oj1s19pks/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrLlBDqj-qiSV14gBRGXRB10TREY0G8NR9zt0cMs8K9Df83KFqJfKeWxAlhqkHXbufeTX_qWb0rdJt3vRA-gVhOTbCrLG50dC8_viuXx8kqMEcKWqknbl_SP25fwTAUEetEZWjStRUKMOGQSevqR0K5c34DXT9Hm8r9LN99X59sLWbCcjmnVjLWSswIbXqMyCOB9equ1yq5TpLV8pLlsXcsIbZA8UO0r213pfYtwODS71v0czBEx2R3eQoC6cW4wlxZhLDyN_TzQ8e0Ck4c9DZohWXRwA?session=0&fife https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/nsmfh1ugeldr18htvrg6d0q94c/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrxo59-QhZ66qln-z-INn9-eRlpyMlxFarFQf7OprgJLgLthiYpvzD6adhYt7JBMZ4J4UiqnquuoOkDprSB9ia_5SrGTqnvssFN8Ddo58GB4YrnJ5zhpmcW72hCquGu7r8xytBl6Hyu5F1QDXT1vnJmRcKpEcaskFBp_v9Ttq_4hX1oEKl7p3YENaaZpFL9NKIz-dPrTMrSJWQkvGKS8Ope87l0MaH_hpGwWbauzNjbNB4a8Pzwp1KvxO50fCjTFN5yLYdTItZkjamLkf2OdNVh-Dhf6g?session=0&fife https://doc-14-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/80mlpocata2iosrmeoe4ns525o/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr_Ix9IXqDkSwG1CBRbL_VThm2JCrhR--u2p7isj69LST4fWn4j_tU09FAgdHUVhJFQKcaOqH8DjBXm9KesAN0Eu8VG3JCFak2ub8guvGcsCcS5gqUkGEK02_THvbN6qfmPJrvZxn4NaXTkZGvCz-38-IO4mM8sUPKexU9fnBmV0YGRlOJTqhyrGd9ckZRPwvHwSuaYI6_0lFjOj4npCwzUbLSljGtWUFCMDW_JmCM6VzHsHuOOwsGKS22NKFNnVZ9Qms6VRKcVgG5pqPEhNkbqZK5E_g?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -2.1258008,53.5565049,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reading Knights</name>
+      <styleUrl>#icon-1579-000000-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.9495029,51.4372724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reading Lions</name>
+      <styleUrl>#icon-1579-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.926435,51.4424661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Renfrewshire Raptors
+</name>
+      <styleUrl>#icon-1579-A52714-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.44011399999999,55.847258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rotherham Roosters</name>
+      <styleUrl>#icon-1579-A52714-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.3635009,53.4326035,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rugby Raccoons (Div1 Mid South)</name>
+      <description>https://www.facebook.com/rugbyraccoons/</description>
+      <styleUrl>#icon-1579-BDBDBD</styleUrl>
+      <Point>
+        <coordinates>
+          -0.9070587,52.5471308,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salisbury City Marauders</name>
+      <description><![CDATA[<img src="https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/6ro30ppcd0iqn3ink1ge7orqmk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpIq1e9M_gGxw4hG9cZvH-_m6vViuL3exlGFNXSj4kHSEvtc5ym3cXc0bmLfAgfVS45OeVvtlAsgXNxV8KxxVjlRcDSaoKpG8L0pSyYybrqZBMKFL_QsXSnukC3C-OM1_oqK3hzdMrJ4mZXGqPbjCwKsH6a7wKgxN-gkbRhmwhq7qzuAoX5D96ug51-U0PRtT36xn6YRWeuKN8xYDkFh6pc0kcM4oiKy0Sf46-2mdF3JPP6nVGlGZt8QkX_nsJkSdtWFDhFmf7xJz0PjmGPTW4Dpf2Qqg?session=0&fife" height="200" width="auto" /><br><br>23 Church Road, Laverstock, Salisbury. Adult Flag development team, Youth flag/contact currently being established. ]]></description>
+      <styleUrl>#icon-1579-0097A7</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/6ro30ppcd0iqn3ink1ge7orqmk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpIq1e9M_gGxw4hG9cZvH-_m6vViuL3exlGFNXSj4kHSEvtc5ym3cXc0bmLfAgfVS45OeVvtlAsgXNxV8KxxVjlRcDSaoKpG8L0pSyYybrqZBMKFL_QsXSnukC3C-OM1_oqK3hzdMrJ4mZXGqPbjCwKsH6a7wKgxN-gkbRhmwhq7qzuAoX5D96ug51-U0PRtT36xn6YRWeuKN8xYDkFh6pc0kcM4oiKy0Sf46-2mdF3JPP6nVGlGZt8QkX_nsJkSdtWFDhFmf7xJz0PjmGPTW4Dpf2Qqg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.7738628,51.0790946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheffield Giants</name>
+      <description>https://www.facebook.com/sheffieldgiants/</description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -1.4481355,53.3730883,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheffield Vipers (Premiership, MEC, Mixed)</name>
+      <description><![CDATA[<img src="https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/cscclua3j49369109o3s9u5g38/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrUUHqtSqR6wgeiaSTJzHztVKyI7zRrEjAJYW-2TQjzxV_IKW9_LtAGEewXDAX1eFep6Ib77tDNrNKmSA6paMVAIzwoCfJW19Gx0uEUrl7rj3XCtb3pzTQSTp6TQsscjZDg5J3sQkhXdqWK6M_ouxbkwKLjyCwuiJy3ZdTqAutrQ7_nqoGGi32PwBlQbiLKJY8CFjL112GdEnkdZDklM9Thwkxk2awJ-XMaSq-_mwOJkWgPqYClksjY3hYFDdo4ndLQEKrzFB0hQUDZvtC-oDrIdK4Oqg?session=0&fife" height="200" width="auto" /><br><br>FB - www.facebook.com/sheffieldvipers  Training - Wed 1830-2030 Sun 0945-1230<br><br><img src="https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/eulflaftsr7ut5r8666h7o02gg/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoDs7vM7hx2VhXQg8AzBXGaHAaoB10PGr_VCf-p308z2PICfUEeqY1YkbocNeZMqtrxFzlUfNzq_9PoWdUWXqZYNSGv_acuD7H86lbvRmZM-C0DW9XWonJaWKO6PMD4Lgc5_Uz1oM-JGZSUrlU60ZnSdgLPRzl4EdDXK0_VwZwm2N0lpZlSMqM4ZupT_dyRfzj-3Jty8roxPQwCyuMVtW1LYVVHkUmHZ65f-u1eIFZKt2MeuVsJ93zRlCvzFrafCn6KTSDhZDs4IN59DGsu6P0M0O6gLQ?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-097138</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/cscclua3j49369109o3s9u5g38/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrUUHqtSqR6wgeiaSTJzHztVKyI7zRrEjAJYW-2TQjzxV_IKW9_LtAGEewXDAX1eFep6Ib77tDNrNKmSA6paMVAIzwoCfJW19Gx0uEUrl7rj3XCtb3pzTQSTp6TQsscjZDg5J3sQkhXdqWK6M_ouxbkwKLjyCwuiJy3ZdTqAutrQ7_nqoGGi32PwBlQbiLKJY8CFjL112GdEnkdZDklM9Thwkxk2awJ-XMaSq-_mwOJkWgPqYClksjY3hYFDdo4ndLQEKrzFB0hQUDZvtC-oDrIdK4Oqg?session=0&fife https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/eulflaftsr7ut5r8666h7o02gg/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoDs7vM7hx2VhXQg8AzBXGaHAaoB10PGr_VCf-p308z2PICfUEeqY1YkbocNeZMqtrxFzlUfNzq_9PoWdUWXqZYNSGv_acuD7H86lbvRmZM-C0DW9XWonJaWKO6PMD4Lgc5_Uz1oM-JGZSUrlU60ZnSdgLPRzl4EdDXK0_VwZwm2N0lpZlSMqM4ZupT_dyRfzj-3Jty8roxPQwCyuMVtW1LYVVHkUmHZ65f-u1eIFZKt2MeuVsJ93zRlCvzFrafCn6KTSDhZDs4IN59DGsu6P0M0O6gLQ?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.470085,53.381129,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Solent Red Storm</name>
+      <description><![CDATA[<img src="https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/cij62kjt2b9c33fb7pb7l1c2co/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALp0CuZH9w_N60vSW9-YJFgbhkpMJFAh5cJlZGmAlbP343sKejNz9GJA6f6Z12bFVNsrK-L8wJRcbe23TW5XNgZTMtDGQATmYqJ0llvZIU5MEUabOQcyqoTOdoLYhNghssXDqRyjWdT8KXUNdkTn6kiCU8kGpTrU_rXUFesyPop5JINOVXefybCAQmINQJO2_d9k24ZqYj07BiTZ0yAXRK3gNpXyH5x-C8ZDQexpPuFcafcneL1BnnuuCSwcH1aiMbFvMroCNQz7Wc7OZR34pbPdpfMkzQ?session=0&fife" height="200" width="auto" /><br><br>Solent Red Storm (Flag Football) is a new club focused solely on flag football. It will provide training and competition for children aged between 6 and 17. We would also be looking to develop an adult mixed flag team, but that would be developmental as our aim is to secure the younger age groups first.  <br><br>Facebook @solentredstorm<br><br><img src="https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/shg8k4io15jjjhqfk80j1alduk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoqFYLOojIKXGeaW7ILpo0zgjcSfz5qOXwOCxLIXyDVOzw4HRxNyoIl6UuH7_VdHXeb-_U7reXXa3qhE_gwZEVbfFqo9puZj72YZ-c8mT4zbh_Xa7nTlVt3rHHPfGrpBIxlQtekuW-xOtvemoRDWS_cncLBqe1dv4358sMNjsRlFAT8cxxCQ24Yu-Ok3zgbyAEzfsQIIBmpsu6msPHsEK7dXxj-kPBb6Z1INXRbPeFpLIaziotL82MIkhtAv1AJWjIN-d8BiSvtUX1jkTSGbooGcxu-8Q?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/d0tlomaq76uotepuppf8c760l4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpTTA8rPd2sAOV5vi_vXAQzePAVlLiOoYVvFxOt4nwockqR6i4I88PSgcmVl7K7dSHWgYHSmry7yiXMvDlHFGv49gIdupm7sPxfn2wbWf0nRhT7rh5kR5p-RWhsQPzzbMNMPkB8DizHsgC0UMwgbqpGrOwAe3TahRCZ8X-SFAFPFsYe_nmzd_M8tqqH7xL_aGLCCgy3Ii-a1N2iVXiaxBSnMcpxhYrngZsDoFihTASMtw9iX76HKnoEAyUYUP4aepIKlOEexAthvDufRCXnxEZcI44Yyw?session=0&fife" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1579-E65100</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0s-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/cij62kjt2b9c33fb7pb7l1c2co/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALp0CuZH9w_N60vSW9-YJFgbhkpMJFAh5cJlZGmAlbP343sKejNz9GJA6f6Z12bFVNsrK-L8wJRcbe23TW5XNgZTMtDGQATmYqJ0llvZIU5MEUabOQcyqoTOdoLYhNghssXDqRyjWdT8KXUNdkTn6kiCU8kGpTrU_rXUFesyPop5JINOVXefybCAQmINQJO2_d9k24ZqYj07BiTZ0yAXRK3gNpXyH5x-C8ZDQexpPuFcafcneL1BnnuuCSwcH1aiMbFvMroCNQz7Wc7OZR34pbPdpfMkzQ?session=0&fife https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/shg8k4io15jjjhqfk80j1alduk/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALoqFYLOojIKXGeaW7ILpo0zgjcSfz5qOXwOCxLIXyDVOzw4HRxNyoIl6UuH7_VdHXeb-_U7reXXa3qhE_gwZEVbfFqo9puZj72YZ-c8mT4zbh_Xa7nTlVt3rHHPfGrpBIxlQtekuW-xOtvemoRDWS_cncLBqe1dv4358sMNjsRlFAT8cxxCQ24Yu-Ok3zgbyAEzfsQIIBmpsu6msPHsEK7dXxj-kPBb6Z1INXRbPeFpLIaziotL82MIkhtAv1AJWjIN-d8BiSvtUX1jkTSGbooGcxu-8Q?session=0&fife https://doc-0o-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/d0tlomaq76uotepuppf8c760l4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALpTTA8rPd2sAOV5vi_vXAQzePAVlLiOoYVvFxOt4nwockqR6i4I88PSgcmVl7K7dSHWgYHSmry7yiXMvDlHFGv49gIdupm7sPxfn2wbWf0nRhT7rh5kR5p-RWhsQPzzbMNMPkB8DizHsgC0UMwgbqpGrOwAe3TahRCZ8X-SFAFPFsYe_nmzd_M8tqqH7xL_aGLCCgy3Ii-a1N2iVXiaxBSnMcpxhYrngZsDoFihTASMtw9iX76HKnoEAyUYUP4aepIKlOEexAthvDufRCXnxEZcI44Yyw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.3606659,50.8911962,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Coast Spitfires</name>
+      <description><![CDATA[We run a Cadet Team from ages 8 to 14 and train Saturday afternoons from 2pm to 4pm on the fields at Passfield Avenue, Eastleigh.<br><br>We are looking to add an Adult Flag team to the program later this year.<br><br>www.southcoastspifires.co.uk]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -1.37025819999997,50.9696005,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Southern Reapers</name>
+      <description><![CDATA[<img src="https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/le4ghd0c85fm7hdc3jg7hpi3ns/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr-QfygtYT8h7wCBaxRcjVh5KC9nycLDIOJhqt9FHfJnGx-5Rwu23P717Onm6G_HfyokhUOiU01pccId0yvsXfhgtBxwpjecfYUnYvZKy2pf_d0KpPoH3oZwqs68J_eFstcEFOK8CX5VaQnziML9wx-v1oD75mxjEugkAtpFbZWYAWF4wAVy5Y2KFTAsnIQTGp9Pt3yh0WhGBC8jl8vgky_Woz1swgGS_p1hZki5FITYcI7qCyN8C-p2l5dkKwF8HFkWvp1Uj6Z4MCRwKYabiS_o5peBw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/le4ghd0c85fm7hdc3jg7hpi3ns/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr-QfygtYT8h7wCBaxRcjVh5KC9nycLDIOJhqt9FHfJnGx-5Rwu23P717Onm6G_HfyokhUOiU01pccId0yvsXfhgtBxwpjecfYUnYvZKy2pf_d0KpPoH3oZwqs68J_eFstcEFOK8CX5VaQnziML9wx-v1oD75mxjEugkAtpFbZWYAWF4wAVy5Y2KFTAsnIQTGp9Pt3yh0WhGBC8jl8vgky_Woz1swgGS_p1hZki5FITYcI7qCyN8C-p2l5dkKwF8HFkWvp1Uj6Z4MCRwKYabiS_o5peBw?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -1.5080825,51.2033134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swansea Hammerheads </name>
+      <description><![CDATA[<img src="https://doc-0g-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/lc0fdsa4pklnt62pvuuf5sniv8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr2-c4jwo4zyEHvKZ2Y4LaLEnoh3xSqACZ46EAsrMciS6Y7FB3tNiWTAFs96_0UBsHuYp7jBLh8r4ylJ7HvPGsT7qAaTRTIAHb3MMZRee5VB8bBLUh_fa9QfOdhrWifp0sJi5J8d-YxMDvaN4ct9BxbRhR_zcOVmO1ovQK7_4clpCcR9UtP6N8vjFBVRplwEs-cWCLhyNHXSvz9wl9OjpLHDyQCgL24qdP8xKDZAQbETKxM7zKTue7xW2ffHuDSiqWKlTqBBaWFSB11xEuQZm3LfTetIA?session=0&fife" height="200" width="auto" /><br><br>Division 1 SWC ]]></description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0g-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/lc0fdsa4pklnt62pvuuf5sniv8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALr2-c4jwo4zyEHvKZ2Y4LaLEnoh3xSqACZ46EAsrMciS6Y7FB3tNiWTAFs96_0UBsHuYp7jBLh8r4ylJ7HvPGsT7qAaTRTIAHb3MMZRee5VB8bBLUh_fa9QfOdhrWifp0sJi5J8d-YxMDvaN4ct9BxbRhR_zcOVmO1ovQK7_4clpCcR9UtP6N8vjFBVRplwEs-cWCLhyNHXSvz9wl9OjpLHDyQCgL24qdP8xKDZAQbETKxM7zKTue7xW2ffHuDSiqWKlTqBBaWFSB11xEuQZm3LfTetIA?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.9701521,51.6108915,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swindon Storm Flag (BAFA Div 1 South-West, Mixed)</name>
+      <description>Mannington Recreation Ground. Training Saturdays 10:00-12:00. Contact stormflag@hotmail.com or contact us through social media @SStormFlag for details.</description>
+      <styleUrl>#icon-1579-01579B</styleUrl>
+      <Point>
+        <coordinates>
+          -1.8105555,51.5605176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Teesside Steelers </name>
+      <description>10-12 Sundays. 16yrs+ Men and Women welcome. Preston Park, Yarm Road, TS18 3RJ       (https://www.facebook.com/TeessideSteelersFlag/)</description>
+      <styleUrl>#icon-1579-1A237E</styleUrl>
+      <Point>
+        <coordinates>
+          -1.3397956,54.5359988,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Victoria Park Panthers</name>
+      <description>Senior Men’s Flag Football Team</description>
+      <styleUrl>#icon-1579-7CB342</styleUrl>
+      <Point>
+        <coordinates>
+          -0.0404268,51.534124,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ware Wolves</name>
+      <description>https://www.facebook.com/warewolvesflag/</description>
+      <styleUrl>#icon-1579-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          -0.0260925,51.8077657,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Warrington Revolution </name>
+      <styleUrl>#icon-1579-A52714-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.5192702,53.4521165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waveney Wolves</name>
+      <description><![CDATA[U12 Cadet & U17 Youth Flag Teams.                         www.waveneywolves.com]]></description>
+      <styleUrl>#icon-1579-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          1.732235,52.4785461,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wigan Bandits</name>
+      <description>https://www.facebook.com/WiganBandits/</description>
+      <styleUrl>#icon-1579-000000</styleUrl>
+      <Point>
+        <coordinates>
+          -2.5388717,53.5270439,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wight Hell Hounds</name>
+      <description><![CDATA[www.wighthellhounds.uk<br>https://www.facebook.com/WightHellHounds/]]></description>
+      <styleUrl>#icon-1579-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -1.2390143,50.7278444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Woking Whirlwind</name>
+      <description><![CDATA[<img src="https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/tqvlt54246dqboarbuua3sbph8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrYJw6QjeNXqIfZtf5jeHzU-Lz13EoYVTvBImLwXfD0lR8ydRkH45pdoxP0qFz2HRfhV-sKW7s_Phyz2iYasdVfmmPRS5FbSSzI2lk6wc6kuI0eDLE3eRTXTi_hXPMAFkLqcyMAOKfxf5PxrKEBwRyTaSO_xtQ8ydMow-o3Vsj9yzebQz3DTUeX9KJPRSSlMU1p86GEm8Enk2F5New2MMRm_z8vPnOQg6sb1dxYjf8wFPYNDEBZsu62MY3d_SAiPjOsrKrjhN7AUH2dZNdxRJ87-Kg0Qg?session=0&fife" height="200" width="auto" /><br><br>https://facebook.com/wokingwhirlwind]]></description>
+      <styleUrl>#icon-1579-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0k-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/tqvlt54246dqboarbuua3sbph8/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrYJw6QjeNXqIfZtf5jeHzU-Lz13EoYVTvBImLwXfD0lR8ydRkH45pdoxP0qFz2HRfhV-sKW7s_Phyz2iYasdVfmmPRS5FbSSzI2lk6wc6kuI0eDLE3eRTXTi_hXPMAFkLqcyMAOKfxf5PxrKEBwRyTaSO_xtQ8ydMow-o3Vsj9yzebQz3DTUeX9KJPRSSlMU1p86GEm8Enk2F5New2MMRm_z8vPnOQg6sb1dxYjf8wFPYNDEBZsu62MY3d_SAiPjOsrKrjhN7AUH2dZNdxRJ87-Kg0Qg?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -0.5546793,51.3118757,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[University of Nottingham Women's Flag ]]></name>
+      <styleUrl>#icon-1579-558B2F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.19515820000004,52.938636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Sheffield Hallam Women's ]]></name>
+      <styleUrl>#icon-1579-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.4908791,53.3723073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wirral Vikings</name>
+      <description>https://m.facebook.com/WirralVikingsFlagFootball/</description>
+      <styleUrl>#icon-1579-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          -3.0484847,53.3973725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Weston Supers</name>
+      <description><![CDATA[<img src="https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/b7nahdn3euscg2h4pr57g7u4k4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrJEe3tJGmNx8ZlXycg6uQ0M2zM5BbKS4jK9Half7XCr34zPnkqRx79lQwvXiV9BbmWJ_VFvMh9oIkp3gGz9lxirjsZV_iWdRrtod-yvlIpl0f5-fpGWZix1sgx8YhYTuFAUqr2w4tpRcKyc3Na1xVHlWbZuXuZL9WEm_2BjVe1ZMpnBNLUTAzoSkMWrjKoOn6jEmEKMf8ZYiVS49w6g5idDjlfBGatsVk-tykBqiWDIncZtlUHr9WCF_LZ_OMRUuaWMuoQFxb61PklR4ajgqtjcMcEew?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+      <styleUrl>#icon-1579-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://doc-0c-58-mymaps.googleusercontent.com/untrusted/hostedimage/nvluavbf10b47so0g7d5gl83so/b7nahdn3euscg2h4pr57g7u4k4/1576022400000/P7i54wPgygnlQ9d2FoqHKAlhjef_CxTj/04380956457796153305/1AF2TALrJEe3tJGmNx8ZlXycg6uQ0M2zM5BbKS4jK9Half7XCr34zPnkqRx79lQwvXiV9BbmWJ_VFvMh9oIkp3gGz9lxirjsZV_iWdRrtod-yvlIpl0f5-fpGWZix1sgx8YhYTuFAUqr2w4tpRcKyc3Na1xVHlWbZuXuZL9WEm_2BjVe1ZMpnBNLUTAzoSkMWrjKoOn6jEmEKMf8ZYiVS49w6g5idDjlfBGatsVk-tykBqiWDIncZtlUHr9WCF_LZ_OMRUuaWMuoQFxb61PklR4ajgqtjcMcEew?session=0&fife]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -2.9537191,51.3531773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kirkcaldy Bulls</name>
+      <description>Adult mixed team (non-BAFA). Home of Britain’s most successful American Football team in British history!!!</description>
+      <styleUrl>#icon-1579-C2185B</styleUrl>
+      <Point>
+        <coordinates>
+          -3.1738783,56.1043846,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Outlaw Flag Gunslingers</name>
+      <styleUrl>#icon-1579-FFD600-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.980320099999972,52.2724691,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rugby Raccoons</name>
+      <styleUrl>#icon-1579-F9A825-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.2780383,52.3437395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Midlothian sabers </name>
+      <description>Bafa div 1 adult mixed</description>
+      <styleUrl>#icon-1579-A52714</styleUrl>
+      <Point>
+        <coordinates>
+          -3.1937235,55.9406349,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 66</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.603334,53.1641519,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Albans RFC</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.272846999999956,51.755731,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Herts Cheetahs AFC</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.272769899999957,51.7557344,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

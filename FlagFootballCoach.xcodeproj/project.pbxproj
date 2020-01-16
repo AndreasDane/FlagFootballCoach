@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6529739723A027800032C4A9 /* PositionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529739623A027800032C4A9 /* PositionsMenuViewController.swift */; };
+		6529739B23A056410032C4A9 /* OffensePositionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529739A23A056410032C4A9 /* OffensePositionsViewController.swift */; };
+		6529739D23A0564E0032C4A9 /* DefensePositionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529739C23A0564E0032C4A9 /* DefensePositionsViewController.swift */; };
+		652973A923A062150032C4A9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652973A823A062150032C4A9 /* Questions.swift */; };
+		652973AB23A0623B0032C4A9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652973AA23A0623B0032C4A9 /* QuizViewController.swift */; };
+		652973AD23A06BAF0032C4A9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 652973AC23A06BAF0032C4A9 /* Podfile */; };
+		655B3B7F239D5563007687B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B3B7E239D5563007687B2 /* AppDelegate.swift */; };
+		655B3B81239D5563007687B2 /* RuleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B3B80239D5563007687B2 /* RuleMenuViewController.swift */; };
+		655B3B86239D5563007687B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655B3B84239D5563007687B2 /* Main.storyboard */; };
+		655B3B88239D5564007687B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655B3B87239D5564007687B2 /* Assets.xcassets */; };
+		655B3B8B239D5564007687B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655B3B89239D5564007687B2 /* LaunchScreen.storyboard */; };
+		65C48AA7239D5805004FD209 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AA6239D5805004FD209 /* GoogleMapsBase.framework */; };
+		65C48AAA239D581D004FD209 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AA8239D581D004FD209 /* GoogleMapsCore.framework */; };
+		65C48AAB239D581D004FD209 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AA9239D581D004FD209 /* GoogleMaps.framework */; };
+		65C48AAD239D58C9004FD209 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65C48AAC239D58C9004FD209 /* GoogleMaps.bundle */; };
+		65C48ABE239D5931004FD209 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AAF239D5931004FD209 /* ImageIO.framework */; };
+		65C48ABF239D5931004FD209 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB0239D5931004FD209 /* libz.tbd */; };
+		65C48AC0239D5931004FD209 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB1239D5931004FD209 /* CoreLocation.framework */; };
+		65C48AC1239D5931004FD209 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB2239D5931004FD209 /* GLKit.framework */; };
+		65C48AC2239D5931004FD209 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB3239D5931004FD209 /* CoreTelephony.framework */; };
+		65C48AC3239D5931004FD209 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB4239D5931004FD209 /* libc++.tbd */; };
+		65C48AC4239D5931004FD209 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB5239D5931004FD209 /* CoreText.framework */; };
+		65C48AC5239D5931004FD209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB6239D5931004FD209 /* UIKit.framework */; };
+		65C48AC6239D5931004FD209 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB7239D5931004FD209 /* OpenGLES.framework */; };
+		65C48AC7239D5931004FD209 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB8239D5931004FD209 /* QuartzCore.framework */; };
+		65C48AC8239D5931004FD209 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48AB9239D5931004FD209 /* SystemConfiguration.framework */; };
+		65C48AC9239D5931004FD209 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48ABA239D5931004FD209 /* Accelerate.framework */; };
+		65C48ACA239D5931004FD209 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48ABB239D5931004FD209 /* CoreGraphics.framework */; };
+		65C48ACB239D5931004FD209 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48ABC239D5931004FD209 /* CoreData.framework */; };
+		65C48ACC239D5931004FD209 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C48ABD239D5931004FD209 /* CoreImage.framework */; };
+		65C48ACE239D5A02004FD209 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C48ACD239D5A02004FD209 /* MapViewController.swift */; };
+		8F4B34772C14B7F552DB01F0 /* libPods-FlagFootballCoach.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D63C6D8DDD16AB1D2983320 /* libPods-FlagFootballCoach.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34E401F4A10D768862C4625F /* Pods-FlagFootballCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagFootballCoach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlagFootballCoach/Pods-FlagFootballCoach.debug.xcconfig"; sourceTree = "<group>"; };
+		5D63C6D8DDD16AB1D2983320 /* libPods-FlagFootballCoach.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlagFootballCoach.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6529739623A027800032C4A9 /* PositionsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsMenuViewController.swift; sourceTree = "<group>"; };
+		6529739A23A056410032C4A9 /* OffensePositionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffensePositionsViewController.swift; sourceTree = "<group>"; };
+		6529739C23A0564E0032C4A9 /* DefensePositionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefensePositionsViewController.swift; sourceTree = "<group>"; };
+		652973A823A062150032C4A9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		652973AA23A0623B0032C4A9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		652973AC23A06BAF0032C4A9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		652973AE23A06E160032C4A9 /* maps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps.h; sourceTree = "<group>"; };
+		655B3B7B239D5563007687B2 /* FlagFootballCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagFootballCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655B3B7E239D5563007687B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655B3B80239D5563007687B2 /* RuleMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMenuViewController.swift; sourceTree = "<group>"; };
+		655B3B85239D5563007687B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655B3B87239D5564007687B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655B3B8A239D5564007687B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655B3B8C239D5564007687B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C48AA6239D5805004FD209 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		65C48AA8239D581D004FD209 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		65C48AA9239D581D004FD209 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		65C48AAC239D58C9004FD209 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		65C48AAF239D5931004FD209 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		65C48AB0239D5931004FD209 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		65C48AB1239D5931004FD209 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65C48AB2239D5931004FD209 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		65C48AB3239D5931004FD209 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		65C48AB4239D5931004FD209 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		65C48AB5239D5931004FD209 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		65C48AB6239D5931004FD209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65C48AB7239D5931004FD209 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		65C48AB8239D5931004FD209 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65C48AB9239D5931004FD209 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65C48ABA239D5931004FD209 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		65C48ABB239D5931004FD209 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65C48ABC239D5931004FD209 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65C48ABD239D5931004FD209 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		65C48ACD239D5A02004FD209 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		78CE32EA514809524A5BCDEB /* Pods-FlagFootballCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagFootballCoach.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlagFootballCoach/Pods-FlagFootballCoach.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655B3B78239D5563007687B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C48ABE239D5931004FD209 /* ImageIO.framework in Frameworks */,
+				65C48ABF239D5931004FD209 /* libz.tbd in Frameworks */,
+				65C48AC0239D5931004FD209 /* CoreLocation.framework in Frameworks */,
+				65C48AC1239D5931004FD209 /* GLKit.framework in Frameworks */,
+				65C48AC2239D5931004FD209 /* CoreTelephony.framework in Frameworks */,
+				65C48AC3239D5931004FD209 /* libc++.tbd in Frameworks */,
+				65C48AC4239D5931004FD209 /* CoreText.framework in Frameworks */,
+				65C48AC5239D5931004FD209 /* UIKit.framework in Frameworks */,
+				65C48AC6239D5931004FD209 /* OpenGLES.framework in Frameworks */,
+				65C48AC7239D5931004FD209 /* QuartzCore.framework in Frameworks */,
+				65C48AC8239D5931004FD209 /* SystemConfiguration.framework in Frameworks */,
+				65C48AC9239D5931004FD209 /* Accelerate.framework in Frameworks */,
+				65C48ACA239D5931004FD209 /* CoreGraphics.framework in Frameworks */,
+				65C48ACB239D5931004FD209 /* CoreData.framework in Frameworks */,
+				65C48ACC239D5931004FD209 /* CoreImage.framework in Frameworks */,
+				65C48AAB239D581D004FD209 /* GoogleMaps.framework in Frameworks */,
+				65C48AA7239D5805004FD209 /* GoogleMapsBase.framework in Frameworks */,
+				65C48AAA239D581D004FD209 /* GoogleMapsCore.framework in Frameworks */,
+				8F4B34772C14B7F552DB01F0 /* libPods-FlagFootballCoach.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8D55CF0E86AA5A82E4EFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E401F4A10D768862C4625F /* Pods-FlagFootballCoach.debug.xcconfig */,
+				78CE32EA514809524A5BCDEB /* Pods-FlagFootballCoach.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		655B3B72239D5563007687B2 = {
+			isa = PBXGroup;
+			children = (
+				652973AE23A06E160032C4A9 /* maps.h */,
+				655B3B7D239D5563007687B2 /* FlagFootballCoach */,
+				655B3B7C239D5563007687B2 /* Products */,
+				65C48AAC239D58C9004FD209 /* GoogleMaps.bundle */,
+				65C48AA9239D581D004FD209 /* GoogleMaps.framework */,
+				65C48AA8239D581D004FD209 /* GoogleMapsCore.framework */,
+				65C48AA6239D5805004FD209 /* GoogleMapsBase.framework */,
+				65C48AAE239D5931004FD209 /* Frameworks */,
+				1B8D55CF0E86AA5A82E4EFF4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		655B3B7C239D5563007687B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655B3B7B239D5563007687B2 /* FlagFootballCoach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655B3B7D239D5563007687B2 /* FlagFootballCoach */ = {
+			isa = PBXGroup;
+			children = (
+				655B3B94239D5575007687B2 /* Model */,
+				655B3B93239D556E007687B2 /* View */,
+				655B3B92239D5568007687B2 /* Controller */,
+				655B3B87239D5564007687B2 /* Assets.xcassets */,
+				655B3B8C239D5564007687B2 /* Info.plist */,
+				652973AC23A06BAF0032C4A9 /* Podfile */,
+			);
+			path = FlagFootballCoach;
+			sourceTree = "<group>";
+		};
+		655B3B92239D5568007687B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				655B3B7E239D5563007687B2 /* AppDelegate.swift */,
+				655B3B80239D5563007687B2 /* RuleMenuViewController.swift */,
+				65C48ACD239D5A02004FD209 /* MapViewController.swift */,
+				6529739623A027800032C4A9 /* PositionsMenuViewController.swift */,
+				6529739A23A056410032C4A9 /* OffensePositionsViewController.swift */,
+				6529739C23A0564E0032C4A9 /* DefensePositionsViewController.swift */,
+				652973AA23A0623B0032C4A9 /* QuizViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655B3B93239D556E007687B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				655B3B84239D5563007687B2 /* Main.storyboard */,
+				655B3B89239D5564007687B2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655B3B94239D5575007687B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				652973A823A062150032C4A9 /* Questions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65C48AAE239D5931004FD209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C48ABA239D5931004FD209 /* Accelerate.framework */,
+				65C48ABC239D5931004FD209 /* CoreData.framework */,
+				65C48ABB239D5931004FD209 /* CoreGraphics.framework */,
+				65C48ABD239D5931004FD209 /* CoreImage.framework */,
+				65C48AB1239D5931004FD209 /* CoreLocation.framework */,
+				65C48AB3239D5931004FD209 /* CoreTelephony.framework */,
+				65C48AB5239D5931004FD209 /* CoreText.framework */,
+				65C48AB2239D5931004FD209 /* GLKit.framework */,
+				65C48AAF239D5931004FD209 /* ImageIO.framework */,
+				65C48AB4239D5931004FD209 /* libc++.tbd */,
+				65C48AB0239D5931004FD209 /* libz.tbd */,
+				65C48AB7239D5931004FD209 /* OpenGLES.framework */,
+				65C48AB8239D5931004FD209 /* QuartzCore.framework */,
+				65C48AB9239D5931004FD209 /* SystemConfiguration.framework */,
+				65C48AB6239D5931004FD209 /* UIKit.framework */,
+				5D63C6D8DDD16AB1D2983320 /* libPods-FlagFootballCoach.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655B3B7A239D5563007687B2 /* FlagFootballCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655B3B8F239D5564007687B2 /* Build configuration list for PBXNativeTarget "FlagFootballCoach" */;
+			buildPhases = (
+				A6D0F999C1F47DDF65B28F91 /* [CP] Check Pods Manifest.lock */,
+				655B3B77239D5563007687B2 /* Sources */,
+				655B3B78239D5563007687B2 /* Frameworks */,
+				655B3B79239D5563007687B2 /* Resources */,
+				B04EB8D7262ABC50BD98B581 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagFootballCoach;
+			productName = FlagFootballCoach;
+			productReference = 655B3B7B239D5563007687B2 /* FlagFootballCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655B3B73239D5563007687B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AndreasDane;
+				TargetAttributes = {
+					655B3B7A239D5563007687B2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 655B3B76239D5563007687B2 /* Build configuration list for PBXProject "FlagFootballCoach" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655B3B72239D5563007687B2;
+			productRefGroup = 655B3B7C239D5563007687B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655B3B7A239D5563007687B2 /* FlagFootballCoach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655B3B79239D5563007687B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652973AD23A06BAF0032C4A9 /* Podfile in Resources */,
+				655B3B8B239D5564007687B2 /* LaunchScreen.storyboard in Resources */,
+				655B3B88239D5564007687B2 /* Assets.xcassets in Resources */,
+				655B3B86239D5563007687B2 /* Main.storyboard in Resources */,
+				65C48AAD239D58C9004FD209 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6D0F999C1F47DDF65B28F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlagFootballCoach-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04EB8D7262ABC50BD98B581 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlagFootballCoach/Pods-FlagFootballCoach-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlagFootballCoach/Pods-FlagFootballCoach-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlagFootballCoach/Pods-FlagFootballCoach-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655B3B77239D5563007687B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6529739D23A0564E0032C4A9 /* DefensePositionsViewController.swift in Sources */,
+				6529739B23A056410032C4A9 /* OffensePositionsViewController.swift in Sources */,
+				6529739723A027800032C4A9 /* PositionsMenuViewController.swift in Sources */,
+				652973AB23A0623B0032C4A9 /* QuizViewController.swift in Sources */,
+				652973A923A062150032C4A9 /* Questions.swift in Sources */,
+				655B3B7F239D5563007687B2 /* AppDelegate.swift in Sources */,
+				655B3B81239D5563007687B2 /* RuleMenuViewController.swift in Sources */,
+				65C48ACE239D5A02004FD209 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		655B3B84239D5563007687B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655B3B85239D5563007687B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655B3B89239D5564007687B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655B3B8A239D5564007687B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655B3B8D239D5564007687B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655B3B8E239D5564007687B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655B3B90239D5564007687B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E401F4A10D768862C4625F /* Pods-FlagFootballCoach.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlagFootballCoach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlagCoach.FlagFootballCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/a2-dane/Personal/MobileApps/FINAL/FlagFootballCoach/maps.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655B3B91239D5564007687B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CE32EA514809524A5BCDEB /* Pods-FlagFootballCoach.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlagFootballCoach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlagCoach.FlagFootballCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/a2-dane/Personal/MobileApps/FINAL/FlagFootballCoach/maps.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655B3B76239D5563007687B2 /* Build configuration list for PBXProject "FlagFootballCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655B3B8D239D5564007687B2 /* Debug */,
+				655B3B8E239D5564007687B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655B3B8F239D5564007687B2 /* Build configuration list for PBXNativeTarget "FlagFootballCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655B3B90239D5564007687B2 /* Debug */,
+				655B3B91239D5564007687B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655B3B73239D5563007687B2 /* Project object */;
+}
